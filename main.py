@@ -26,7 +26,6 @@ def main():
     tm_json = {"title": {"media": {"url": "https://storage.googleapis.com/bhs-flat-pics/0EB01FB3-F957-499B-B8D9-C8683A330EB0.jpg"}, "text": {"headline": "Synagogues Around the World", "text": "<p>Houston's voice caught the imagination of the world propelling her to superstardom at an early age becoming one of the most awarded performers of our time. This is a look into the amazing heights she achieved and her personal struggles with substance abuse and a tumultuous marriage.</p>"}}, "events": events}
 # Make the json
     json.dump(tm_json, out_f)
-    print("Done. open tempp.txt")
 
 events = []
 if __name__ == '__main__':
